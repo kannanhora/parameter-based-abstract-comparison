@@ -5,7 +5,8 @@ This Streamlit-based web app allows users to compare two research abstracts by e
 ## Features
 - Supports both file upload (PDF, DOCX) and text input
 - Parameter-based comparison (e.g., Technology, Architecture Style, etc.)
-- Uses Sentence Transformers and cosine similarity for comparing abstracts
+- Uses **[Sentence Transformers](https://www.sbert.net/)** — Semantic text embeddings
+ and cosine similarity for comparing abstracts
 - Keyword extraction powered by Spacy & WordNet
 - Outputs similarity score and extracted elements per abstract
   
